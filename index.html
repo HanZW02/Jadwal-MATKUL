@@ -1,47 +1,102 @@
 <!doctype html>
 <html lang="id">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jadwal Mata Kuliah</title>
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css">
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark shadow-sm">
       <div class="container-fluid">
+        <img
+          class="navbar-brand"
+          width="40"
+          height="40"
+          src="assets/img/pidigidiw.JPG"
+          alt="pidigidiw"
+        />
         <a class="navbar-brand fw-bold" href="#">JADWAL MATKUL</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="https://s.id/ti-uinjkt" target="_blank">MICROSITE TI</a>
+              <a class="nav-link" href="https://s.id/ti-uinjkt" target="_blank"
+                >MICROSITE TI</a
+              >
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">E-SEMESTA</a>
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >E-SEMESTA</a
+              >
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://e-semesta.uinjkt.ac.id/dashboard" target="_blank">E-SEMESTA</a></li>
-                <li><a class="dropdown-item" href="https://akademik.uinjkt.ac.id/index.php?pModule=ydKhmA==&pSub=ydKhmA==&pAct=18yZqg==" target="_blank">Portal Akademik</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://e-semesta.uinjkt.ac.id/dashboard"
+                    target="_blank"
+                    >E-SEMESTA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://akademik.uinjkt.ac.id/index.php?pModule=ydKhmA==&pSub=ydKhmA==&pAct=18yZqg=="
+                    target="_blank"
+                    >Portal Akademik</a
+                  >
+                </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://lms.uinjakarta.id/" target="_blank">Learning Management System (LMS)</a>
+              <a
+                class="nav-link"
+                href="https://lms.uinjakarta.id/"
+                target="_blank"
+                >Learning Management System (LMS)</a
+              >
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                SEMESTER
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                LIST MATKUL
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#sem1">Semester 1</a></li>
-                <li><a class="dropdown-item" href="#">Semester 3</a></li>
-                <li><a class="dropdown-item" href="#">Semester 5</a></li>
-                <li><a class="dropdown-item" href="#">Semester 7</a></li>
+                <li class="dropdown-item">
+                  <a class="text-decoration-none text-white" href="#vida"
+                    >PIDIGIDIW</a
+                  >
+                </li>
+                <li class="dropdown-item">
+                  <a class="text-decoration-none text-white" href="#akmal"
+                    >Akmales</a
+                  >
+                </li>
               </ul>
             </li>
           </ul>
@@ -50,118 +105,240 @@
     </nav>
 
     <!-- TABEL MATKUL -->
-     <!-- SEMESTER 1 -->
-    <div class="container my-4">
-      <div class="card shadow-sm border-2 rounded-3">
-        <div id="sem1" class="card-header text-center fw-bold fs-5">
-          SEMESTER 1
-        </div>
-        <div class="table-responsive">
-          <table class="table table-striped table-dark table-hover align-middle mb-0 overflow-hidden">
-            <thead class="text-center">
-              <tr>
-                <th scope="col">KODE MK</th>
-                <th scope="col">NAMA MK</th>
-                <th scope="col">HARI</th>
-                <th scope="col">WAKTU KULIAH</th>
-                <th scope="col">NAMA DOSEN</th>
-                <th scope="col">SKS</th>
-                <th scope="col">RUANGAN AIS</th>
-                <th scope="col">RUANGAN E-SEMESTA</th>
-                <th scope="col">KETERANGAN</th>
-                <th scope="col">MBKM</th>
-              </tr>
-            </thead>
-           <tbody>
-    <tr>
-      <td>FST6094103</td>
-      <td>MATEMATIKA DISKRIT</td>
-      <td>Senin</td>
-      <td>07:30 - 10:50</td>
-      <td>Luh Kesuma Wardhani, S.T., M.T.</td>
-      <td>4</td>
-      <td>5.010</td>
-      <td>A.503</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>UIN6032205</td>
-      <td>PRAKTIKUM QIRAAH DAN IBADAH</td>
-      <td>Senin</td>
-      <td>13:00 - 14:40</td>
-      <td>Drs. M. Tabah Rosyadi, M.A.</td>
-      <td>2</td>
-      <td>4.003</td>
-      <td>A.411</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>FST6091201</td>
-      <td>LITERASI DIGITAL</td>
-      <td>Selasa</td>
-      <td>07:30 - 10:00</td>
-      <td>Khodijah Hulliyah, MSi, PhD</td>
-      <td>2</td>
-      <td>5.009</td>
-      <td>A.502</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>FST6091102</td>
-      <td>DASAR-DASAR PEMROGRAMAN</td>
-      <td>Rabu</td>
-      <td>07:30 - 10:00</td>
-      <td>Dr. Imam Marzuki Shofi, M.T.</td>
-      <td>3</td>
-      <td>Lab PROG</td>
-      <td>B.502</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>FST6097117</td>
-      <td>ELEKTRONIKA DASAR</td>
-      <td>Rabu</td>
-      <td>13:00 - 15:30</td>
-      <td>Dr. Eng. Feri Fahrianto, M.Sc.</td>
-      <td>3</td>
-      <td>Lab DIG</td>
-      <td>A.501</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>UIN6033201</td>
-      <td>STUDI ISLAM</td>
-      <td>Kamis</td>
-      <td>07:30 - 10:50</td>
-      <td>Drs. M. Tabah Rosyadi, M.A.</td>
-      <td>4</td>
-      <td>4.004</td>
-      <td>A.412</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>NAS6112203</td>
-      <td>PENDIDIKAN KEWARGANEGARAAN</td>
-      <td>Kamis</td>
-      <td>13:00 - 14:40</td>
-      <td>Nurul Faizah Rozy, , MTI</td>
-      <td>2</td>
-      <td>5.010</td>
-      <td>A.503</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-  </tbody>
-          </table>
+    <!-- MATKUL PIDA -->
+    <section id="#vida">
+      <div class="container my-4">
+        <div class="card shadow-sm border-2 rounded-3">
+          <div class="card-header text-center fw-bold fs-5">MATKUL VIDA</div>
+          <div class="table-responsive">
+            <table
+              class="table table-striped table-dark table-hover align-middle mb-0 overflow-hidden"
+            >
+              <thead class="text-center">
+                <tr>
+                  <th scope="col">KODE MK</th>
+                  <th scope="col">NAMA MK</th>
+                  <th scope="col">HARI</th>
+                  <th scope="col">WAKTU KULIAH</th>
+                  <th scope="col">NAMA DOSEN</th>
+                  <th scope="col">SKS</th>
+                  <th scope="col">RUANGAN AIS</th>
+                  <th scope="col">RUANGAN E-SEMESTA</th>
+                  <th scope="col">KETERANGAN</th>
+                  <th scope="col">MBKM</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>FST6091120</td>
+                  <td>Statistika Informatika</td>
+                  <td>Senin</td>
+                  <td>10:15 - 12:45</td>
+                  <td>Luh Kesuma Wardhani, S.T., M.T.</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>A.509</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>FST6091102</td>
+                  <td>Pemrograman Lanjutan</td>
+                  <td>Selasa</td>
+                  <td>07:30 - 10:00</td>
+                  <td>
+                    Dr. Imam Marzuki Shofi, M.T. / Ir. Nashrul Hakiem, Ph.D
+                  </td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>B.503</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>NAS6112202</td>
+                  <td>Pendidikan Pancasila</td>
+                  <td>Selasa</td>
+                  <td>10:15 - 11:55</td>
+                  <td>Nurul Faizah Rozy, MTI</td>
+                  <td>2</td>
+                  <td>-</td>
+                  <td>A.509</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>FST6091202</td>
+                  <td>Aljabar Linear</td>
+                  <td>Selasa</td>
+                  <td>13:00 - 15:30</td>
+                  <td>Muhamad Azhari, S.Kom.,M.Kom</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>A.502</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>FST6091104</td>
+                  <td>Sistem Digital</td>
+                  <td>Rabu</td>
+                  <td>07:30 - 10:00</td>
+                  <td>Nenny Anggraini, S.Kom, MT</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>B.501</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>FST6091122</td>
+                  <td>Matematika Informatika I</td>
+                  <td>Rabu</td>
+                  <td>13:00 - 15:30</td>
+                  <td>Anif Hanifa Setianingrum, M.Si</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>A.509</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>UIN6032202</td>
+                  <td>Islam dan Ilmu Pengetahuan</td>
+                  <td>Kamis</td>
+                  <td>07:30 - 10:00</td>
+                  <td>Drs.M. Tabah Rosyadi, M.A.</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>A.509</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- MATKUL PIDA END -->
+    <!-- MATKUL AKMAL START -->
+    <section id="akmal">
+      <div class="container my-4">
+        <div class="card shadow-sm border-2 rounded-3">
+          <div class="card-header text-center fw-bold fs-5">MATKUL AKMAL</div>
+          <div class="table-responsive">
+            <table
+              class="table table-striped table-dark table-hover align-middle mb-0 overflow-hidden"
+            >
+              <thead class="text-center">
+                <tr>
+                  <th scope="col">KODE MK</th>
+                  <th scope="col">NAMA MK</th>
+                  <th scope="col">HARI</th>
+                  <th scope="col">WAKTU KULIAH</th>
+                  <th scope="col">NAMA DOSEN</th>
+                  <th scope="col">SKS</th>
+                  <th scope="col">RUANGAN AIS</th>
+                  <th scope="col">RUANGAN E-SEMESTA</th>
+                  <th scope="col">KETERANGAN</th>
+                  <th scope="col">MBKM</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>FST6091120</td>
+                  <td>Statistika Informatika</td>
+                  <td>Senin</td>
+                  <td>10:15 - 12:45</td>
+                  <td>Luh Kesuma Wardhani, S.T., M.T.</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>A.509</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>FST6091102</td>
+                  <td>Pemrograman Lanjutan</td>
+                  <td>Selasa</td>
+                  <td>07:30 - 10:00</td>
+                  <td>
+                    Dr. Imam Marzuki Shofi, M.T. / Ir. Nashrul Hakiem, Ph.D
+                  </td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>B.503</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>NAS6112202</td>
+                  <td>Pendidikan Pancasila</td>
+                  <td>Selasa</td>
+                  <td>10:15 - 11:55</td>
+                  <td>Nurul Faizah Rozy, MTI</td>
+                  <td>2</td>
+                  <td>-</td>
+                  <td>A.509</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>FST6091202</td>
+                  <td>Aljabar Linear</td>
+                  <td>Selasa</td>
+                  <td>13:00 - 15:30</td>
+                  <td>Muhamad Azhari, S.Kom.,M.Kom</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>A.502</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>FST6091104</td>
+                  <td>Sistem Digital</td>
+                  <td>Rabu</td>
+                  <td>07:30 - 10:00</td>
+                  <td>Nenny Anggraini, S.Kom, MT</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>B.501</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>FST6091122</td>
+                  <td>Matematika Informatika I</td>
+                  <td>Rabu</td>
+                  <td>13:00 - 15:30</td>
+                  <td>Anif Hanifa Setianingrum, M.Si</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>A.509</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>UIN6032202</td>
+                  <td>Islam dan Ilmu Pengetahuan</td>
+                  <td>Kamis</td>
+                  <td>07:30 - 10:00</td>
+                  <td>Drs.M. Tabah Rosyadi, M.A.</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>A.509</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- MATKUL AKMAL END -->
 
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
